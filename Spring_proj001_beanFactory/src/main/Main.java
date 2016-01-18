@@ -7,6 +7,7 @@ import dao.Triangle;
 
 public class Main {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 //		//INSTANCIATE (no spring)
