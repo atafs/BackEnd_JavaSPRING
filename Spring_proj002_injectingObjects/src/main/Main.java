@@ -11,6 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		//INSTANTIATE
+		@SuppressWarnings("resource")
 		ApplicationContext context = new ClassPathXmlApplicationContext("config/spring.xml");
 		Triangle triangle = (Triangle)context.getBean("triangle-alias");
 		triangle.draw();
