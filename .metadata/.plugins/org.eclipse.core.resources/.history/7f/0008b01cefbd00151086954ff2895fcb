@@ -1,0 +1,10 @@
+package dao;
+
+public class Triangle {
+	
+	/** PROCEDURE: print a message */
+	public void draw() {
+		System.out.println("Triangle draw!!");
+	}
+
+}

@@ -1,0 +1,20 @@
+package main;
+
+import org.springframework.core.io.FileSystemResource;
+
+import dao.Triangle;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		//INSTANCIATE (no spring)
+//		Triangle triangle = new Triangle();
+//		triangle.draw();
+		
+		//INSTANTIATE WITH SPRING
+		BeanFactory factory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
+		
+	}
+
+}
