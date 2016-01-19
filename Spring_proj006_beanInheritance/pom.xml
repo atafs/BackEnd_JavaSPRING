@@ -3,7 +3,7 @@
   <groupId>Spring_proj006_beanInheritance</groupId>
   <artifactId>Spring_proj006_beanInheritance</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- <name>AmericoTomas</name>
+  <name>AmericoTomas</name>
   <description>americoTomasLIB</description>
   
   <dependencies>	

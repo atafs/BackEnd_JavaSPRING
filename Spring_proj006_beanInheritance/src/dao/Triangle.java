@@ -8,7 +8,6 @@ public class Triangle {
 	
 	//ATTRIBUTES
 	private List<Point> points;
-	
 	private ApplicationContext context = null;;
 	
 	//GETTERS AND SETTERS

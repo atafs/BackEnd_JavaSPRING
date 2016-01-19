@@ -18,6 +18,7 @@
 		<!-- MERGE: add an element to LIST (not replace) -->
 			<list merge="true">
 				<ref bean="pointB" />
+				<ref bean="pointC" />
 			</list>
 		</property>
 	</bean>
