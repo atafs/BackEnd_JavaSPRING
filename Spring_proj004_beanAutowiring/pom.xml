@@ -3,7 +3,7 @@
   <groupId>Spring_proj004_beanAutowiring</groupId>
   <artifactId>Spring_proj004_beanAutowiring</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <name>AmericoTomas</name>
+  <name>AmericoTomas</name>
   <description>americoTomasLIB</description>
   
   <dependencies>	
