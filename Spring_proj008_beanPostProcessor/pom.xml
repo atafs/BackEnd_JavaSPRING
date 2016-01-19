@@ -3,7 +3,7 @@
   <groupId>Spring_proj008_beanPostProcessor</groupId>
   <artifactId>Spring_proj008_beanPostProcessor</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- <name>AmericoTomas</name>
+  <name>AmericoTomas</name>
   <description>americoTomasLIB</description>
   
   <dependencies>	
