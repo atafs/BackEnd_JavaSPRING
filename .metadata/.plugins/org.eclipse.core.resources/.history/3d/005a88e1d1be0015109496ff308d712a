@@ -1,0 +1,45 @@
+package dao;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import javax.annotation.Resource;
+
+
+
+
+import interfaces.Shape;
+
+public class Circle implements Shape{
+
+	//ATTRIBUTES
+	private Point center;
+	
+	//GETTERS AND SETTERS
+	public Point getCenter() {
+		return center;
+	}
+
+	//JSR-250 Annotations (Java Specific Request)
+	@Resource(name="pointC")
+	public void setCenter(Point center) {
+		this.center = center;
+	}
+	
+	@PostConstruct
+	public void initializeCircle() {
+		System.out.println("INIT THE CIRCLE");
+	}
+	
+	@PreDestroy
+	public void destroyCircle() {
+		System.out.println("DESTROY THE CIRCLE");
+
+	}
+	
+
+	public void draw() {
+		System.out.println("\nDRAWING Circle:");
+		System.out.println("CIRCLE Point is: " + center.getX() + ", " + center.getY());
+	}
+
+}
