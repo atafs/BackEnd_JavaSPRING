@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<!-- OuterBean -->
+<beans>
+	<!-- OBJECT Triangle: AUTO_WIRE BY TYPE (class: need one bean per type) -->
+<!-- 	<bean id="triangle" class="dao.Triangle" autowire="byType" /> -->
+	
+	<!-- OBJECT Triangle: AUTO_WIRE BY TYPE (constructor: need one bean per type) -->
+<!-- 	<bean id="triangle" class="dao.Triangle" autowire="constructor" /> -->
+	
+		<!-- OBJECT Triangle: AUTO_WIRE BY DEFAULT (autowire OFF) -->
+<!-- 	<bean id="triangle" class="dao.Triangle" /> -->
+	
+	<!-- OBJECT Triangle: AUTO_WIRE BY NAME (name) -->
+	<bean id="triangle" class="dao.Triangle" autowire="byName" />
+	
+ 	<!-- OBJECT Point with default VALUES --> 
+	<bean id="pointA" class="dao.Point">
+		<property name="x" value="0"/>
+		<property name="y" value="0"/>
+	</bean> 
+		<bean id="pointB" class="dao.Point">
+		<property name="x" value="-20"/>
+		<property name="y" value="0"/>
+	</bean> 
+		<bean id="pointC" class="dao.Point">
+		<property name="x" value="20"/>
+		<property name="y" value="0"/>
+	</bean> 
+	
+	<alias name="triangle" alias="triangle-alias" /> 
+</beans>
+
+
+<!-- Inner Bean -->
+<!-- <beans> -->
+	<!-- OBJECT Triangle with reference to POINTS -->
+<!-- 	<bean id="triangle" class="dao.Triangle" name="triangle-name"> -->
+<!-- 		<property name="pointA" ref="zeroPoint" /> -->
+<!-- 		<property name="pointB"> -->
+<!-- 			<bean class="dao.Point"> -->
+<!-- 				<property name="x" value="-20" /> -->
+<!-- 				<property name="y" value="0" />			 -->
+<!-- 			</bean> -->
+<!-- 		</property> -->
+<!-- 		<property name="pointC"> -->
+<!-- 			<bean id="point3" class="dao.Point"> -->
+<!-- 				<property name="x" value="20" /> -->
+<!-- 				<property name="y" value="0" /> -->
+<!-- 			</bean> -->
+<!-- 		</property> -->
+<!-- 	</bean>	 -->
+	
+	 <!-- OBJECT Point --> 
+<!-- 	<bean id="zeroPoint" class="dao.Point"> -->
+<!-- 		<property name="x" value="0" /> -->
+<!-- 		<property name="y" value="0" /> -->
+<!-- 	</bean>	 -->
+	
+<!-- 	<alias name="triangle" alias="triangle-alias" /> -->
+<!-- </beans> -->
