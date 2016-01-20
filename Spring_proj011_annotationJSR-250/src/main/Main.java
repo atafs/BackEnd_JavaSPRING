@@ -18,6 +18,7 @@ public class Main {
 		//INTERFACE SHAPE
 		Shape shape = (Shape)context.getBean("circle");
 		shape.draw();
+
 	}
 
 }

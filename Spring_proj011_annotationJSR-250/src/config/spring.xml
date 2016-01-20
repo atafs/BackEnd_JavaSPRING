@@ -22,10 +22,21 @@
 		<property name="y" value="0" />
 	</bean> 
 	
+	<!-- FILE properties  --> 
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" >
+ 		<property name="basenames" >
+ 			<list>
+ 				<value>mymessage</value>
+ 			</list>
+ 		</property>
+ 	</bean>
+	
 	<!-- ANNOTATIONS -->
    	<context:annotation-config/>
    	
-   	<!-- CLASSES: beans -->
+   	<!-- COMPONENTS: beans registered -->
    	<context:component-scan base-package="dao" />
+   	<context:component-scan base-package="listener" />
+   	
 	
 </beans>

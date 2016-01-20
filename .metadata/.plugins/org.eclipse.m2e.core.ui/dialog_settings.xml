@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Spring_proj012_AspectOrientedProgram"/>
+			<item value="Spring_proj011_annotationJSR-250"/>
+			<item value="Spring_proj010_annotationAutowired"/>
+			<item value="Spring_proj009_codingToInterfaces"/>
+			<item value="Spring_proj008_beanPostProcessor"/>
+			<item value="Spring_proj007_lifecycleCallbacks"/>
+			<item value="Spring_proj006_beanInheritance"/>
+			<item value="Spring_proj005_beanScope"/>
+			<item value="Spring_proj004_beanAutowiring"/>
+			<item value="Spting_prof003_initializingCollections"/>
+		</list>
+		<list key="name">
+			<item value="AmericoTomas"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spring_proj012_AspectOrientedProgram"/>
+			<item value="Spring_proj011_annotationJSR-250"/>
+			<item value="Spring_proj010_annotationAutowired"/>
+			<item value="Spring_proj009_codingToInterfaces"/>
+			<item value="Spring_proj008_beanPostProcessor"/>
+			<item value="Spring_proj007_lifecycleCallbacks"/>
+			<item value="Spring_proj006_beanInheritance"/>
+			<item value="Spring_proj005_beanScope"/>
+			<item value="Spring_proj004_beanAutowiring"/>
+			<item value="Spting_prof003_initializingCollections"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,65 @@
+package dao;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import javax.annotation.Resource;
+
+import org.springframework.context.MessageSource;
+import org.springframework.stereotype.Controller;
+
+import interfaces.Shape;
+
+/* ANNOTATIONS - Stereotype (class roles): 
+ * @Component or @Service: Bean Object 
+ * @Repository: Data Object
+ * @Controller: Controller Object
+ * 
+ * - level of documentation
+ * */
+
+@Controller
+public class Circle implements Shape{
+
+	//ATTRIBUTES
+	private Point center;
+	
+	//INJECTION
+	private MessageSource messageSource;
+	
+	//GETTERS AND SETTERS
+	public Point getCenter() {
+		return center;
+	}
+
+	//INTERFACE Shape
+	public void draw() {
+		System.out.println("\nDRAWING Circle:");
+		System.out.println("CIRCLE Point is: " + center.getX() + ", " + center.getY() + "\n");
+	}
+	
+	//JSR-250 Annotations (Java Specific Request)
+	@Resource(name="pointC")
+	public void setCenter(Point center) {
+		this.center = center;
+	}
+	
+	public MessageSource getMessageSource() {
+		return messageSource;
+	}
+
+	public void setMessageSource(MessageSource messageSource) {
+		this.messageSource = messageSource;
+	}
+
+	//after the constructor is called
+	@PostConstruct
+	public void initializeCircle() {
+		System.out.println("INIT THE CIRCLE");
+	}
+	
+	//before the object is destroyed
+	@PreDestroy
+	public void destroyCircle() {
+		System.out.println("DESTROY THE CIRCLE");
+	}
+}

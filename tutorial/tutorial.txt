@@ -1,7 +1,7 @@
 //45 VIDEOS
 https://www.youtube.com/playlist?list=PL1CDCD08791820E26
 
-//SEEN
+//BASICS
 https://www.youtube.com/watch?v=xlWwMSu5I70&list=PL1CDCD08791820E26&index=3
 https://www.youtube.com/watch?v=ZxLaEovze3M&list=PL1CDCD08791820E26&index=5
 https://www.youtube.com/watch?v=IOZzxmJVus0&index=6&list=PL1CDCD08791820E26  05:24
@@ -13,3 +13,9 @@ https://www.youtube.com/watch?v=IVIhVJJGo68&index=19&list=PL1CDCD08791820E26
 https://www.youtube.com/watch?v=apTEbKPW3ow&list=PL1CDCD08791820E26&index=20
 https://www.youtube.com/watch?v=oTcSW4-_1Ew&list=PL1CDCD08791820E26&index=21
 https://www.youtube.com/watch?v=cUqquQDZR-c&list=PL1CDCD08791820E26&index=22
+https://www.youtube.com/watch?v=ZUe1Xz7DAcY&list=PL1CDCD08791820E26&index=23
+
+//MORE AOP (introdution)
+https://www.youtube.com/watch?v=QdyLsX0nG30&list=PL1CDCD08791820E26&index=24
+https://www.youtube.com/watch?v=D0ekfQNGgpY&list=PL1CDCD08791820E26&index=26
+https://www.youtube.com/watch?v=4-z-YsRfSF0&index=27&list=PL1CDCD08791820E26
