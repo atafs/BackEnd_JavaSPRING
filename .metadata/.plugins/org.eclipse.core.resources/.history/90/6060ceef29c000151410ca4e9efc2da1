@@ -1,0 +1,30 @@
+package aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class LoggingAspect {
+	
+	//WILDCARDS
+	@Before("execution(public * get*())")
+	public void LoggingAdvice() {
+		System.out.println("ADVICE RUN CIRCLE... GET METHOD CALLED!!");
+	}
+	
+//	@Before("execution(public String getName())")
+//	public void LoggingAdvice() {
+//		System.out.println("ADVICE RUN CIRCLE... GET METHOD CALLED!!");
+//	}
+	
+//	@Before("execution(public String model.Circle.getName())")
+//	public void LoggingAdviceCir() {
+//		System.out.println("ADVICE RUN CIRCLE... GET METHOD CALLED!!");
+//	}
+//	
+//	@Before("execution(public String model.Triangle.getName())")
+//	public void LoggingAdviceTri() {
+//		System.out.println("ADVICE RUN TRIANGLE... GET METHOD CALLED!!");
+//	}
+
+}

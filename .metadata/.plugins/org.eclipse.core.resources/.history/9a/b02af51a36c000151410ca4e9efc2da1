@@ -1,0 +1,45 @@
+package aspect;
+
+import model.Circle;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class LoggingAspect {
+	
+	/* JOINPOINT and Advice ARGS 
+	 * - all the places in your code were you can apply advice
+	 * */
+	//BEFORE: calls
+	@Before("allCircleMethods()")
+	public void loggingAdvice(JoinPoint joinPoint) {
+		//PRINT
+		System.out.println(joinPoint.toString());
+		System.out.println(joinPoint.getTarget());
+		
+		//GET OBJECT
+		Circle circle = (Circle) joinPoint.getTarget();
+		System.out.println("Circle value= " + circle.getName());
+	}
+	
+	/* ARGS 
+	 * - detects changes in attributes of classes (args)
+	 * */
+	@Before("args(name)")
+	public void stringArgsMethods(String name) {
+		System.out.println("A METHOD THAT TAKES STRING ARGS HAS BEEN CALLED = " + name);
+	}
+
+	
+	//POINTCUTS: is a specific REGEX
+	@Pointcut("execution(* get*())")
+	public void allGetters() {}
+	
+	//POINTCUTS: within METHOD
+	@Pointcut("within(model.Circle)")
+	public void allCircleMethods() {}
+
+}
