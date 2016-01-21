@@ -1,0 +1,45 @@
+package aspect;
+
+import model.Circle;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class LoggingAspect {
+	
+	/* AROUND: can write code around the target code is executed.
+	 * */
+	@Around("allGetters()")
+	public Object myAroundDevice(ProceedingJoinPoint proceedingJoinPoint) {
+		
+		Object returnValue = null;
+		try {
+			//AROUND BEFORE
+			System.out.println("@Around before advice");
+			
+			returnValue = proceedingJoinPoint.proceed();
+			
+			//AROUND AFTER
+			System.out.println("@Around after advice");
+
+		} catch (Throwable e) {
+			System.out.println("@Around after CATCH THROWING advice");
+		} 
+		
+		System.out.println("@Around after FINALLY");
+		return returnValue;
+	}
+
+	//POINTCUTS: is a specific REGEX
+	@Pointcut("execution(* get*())")
+	public void allGetters() {}
+	
+}
