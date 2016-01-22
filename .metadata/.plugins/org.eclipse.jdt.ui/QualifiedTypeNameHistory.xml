@@ -25,15 +25,12 @@
 <fullyQualifiedTypeName name="listener.DrawEvent"/>
 <fullyQualifiedTypeName name="org.springframework.context.event.ApplicationEventMulticaster"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationEventPublisherAware"/>
-<fullyQualifiedTypeName name="model.Triangle"/>
-<fullyQualifiedTypeName name="service.ShapeService"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
-<fullyQualifiedTypeName name="model.Circle"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
@@ -41,4 +38,9 @@
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
 <fullyQualifiedTypeName name="aspect.Loggable"/>
+<fullyQualifiedTypeName name="model.Circle"/>
+<fullyQualifiedTypeName name="model.Triangle"/>
+<fullyQualifiedTypeName name="service.FactoryService"/>
+<fullyQualifiedTypeName name="service.ShapeService"/>
+<fullyQualifiedTypeName name="aspect.LoggingAspect"/>
 </qualifiedTypeNameHistroy>

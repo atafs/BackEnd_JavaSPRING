@@ -1,3 +1,4 @@
+// ########################################################################
 //45 VIDEOS
 https://www.youtube.com/playlist?list=PL1CDCD08791820E26
 
@@ -29,3 +30,14 @@ https://www.youtube.com/watch?v=ewWzxcNnI7k&index=34&list=PL1CDCD08791820E26
 //LAST DONE FOR NOW: 'Spring Tutorial 35 - Understanding AOP Proxies'
 https://www.youtube.com/watch?v=yiinKulgm4U&index=35&list=PL1CDCD08791820E26
 
+
+// ########################################################################
+
+//TOCONTINUE **************************************************************
+
+//OPTION MY_SQL DB
+https://www.youtube.com/playlist?list=PL004E3FE612FD7FDB
+
+//OPTION DERBY APACHE DB
+//Spring Tutorial 36 - Introduction to Spring Data and Setting Up
+https://www.youtube.com/watch?v=eR_JFtqyNL4&index=36&list=PL1CDCD08791820E26
