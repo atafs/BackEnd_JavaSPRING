@@ -1,0 +1,13 @@
+package service;
+
+import model.Circle;
+import aspect.annotation.Loggable;
+
+public class ShapeServiceProxy extends ShapeService{
+
+	//GETTERS AND SETTERS
+	@Loggable
+	public Circle getCircle() {
+		super.getCircle();
+	}
+}

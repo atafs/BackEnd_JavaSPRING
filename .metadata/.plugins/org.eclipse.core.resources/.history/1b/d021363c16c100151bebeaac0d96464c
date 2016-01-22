@@ -1,0 +1,17 @@
+package service;
+
+import model.Circle;
+import model.Triangle;
+
+public class FactoryService {
+	
+	/** FUNCTION: factory to instantiate ShapeFactory and the classes that implement this interface */
+	public Object getBean(String beanType) {
+		if (beanType.equals("shapeService")) return new ShapeService();
+		if (beanType.equals("circle")) return new Circle();
+		if (beanType.equals("triangle")) return new Triangle();
+
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+package service;
+
+public class FactoryService {
+	
+	/** */
+	public Object getBean(String beanType) {
+		if (beanType.equals("shapeService")) {
+			
+		}
+	}
+
+}
