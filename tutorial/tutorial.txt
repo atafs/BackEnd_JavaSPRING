@@ -40,8 +40,6 @@ https://www.youtube.com/playlist?list=PL004E3FE612FD7FDB
 
 
 // ########################################################################
-//RESEARCH (seen but not done yet)*****************************************
-
 //SPRING DATA SUPPORT *****************************************************
 
 //OPTION DERBY APACHE DB
@@ -51,10 +49,5 @@ https://www.youtube.com/watch?v=eR_JFtqyNL4&index=36&list=PL1CDCD08791820E26
 //Oracle Virtual Box Network Adapter Settings
 https://www.youtube.com/watch?v=oVo_zFhGe3U
 
-//Spring Tutorial 39 - Using JdbcTemplate
-https://www.youtube.com/watch?v=0LYqy0wvS20&index=39&list=PL1CDCD08791820E26
-
-Spring Tutorial 40 - Returning Other Datatypes from JdbcTemplate
-https://www.youtube.com/watch?v=QrU6UI_bSbU&index=40&list=PL1CDCD08791820E26
-
-	
+//Spring Tutorial 38 - Adding Spring and DataSource 
+https://www.youtube.com/watch?v=f-k823MZ02Q&list=PL1CDCD08791820E26&index=38	

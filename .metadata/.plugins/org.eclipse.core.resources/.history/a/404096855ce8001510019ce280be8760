@@ -1,0 +1,27 @@
+package pt.americolib;
+
+import pt.americolib.dao.JdbcDaoImpl;
+import pt.americolib.model.Circle;
+
+public class JdbcDemo {
+	
+	public static void main(String[] args) {
+		
+		//TIMER
+		long tStart = System.currentTimeMillis();
+		
+		//INSTANCIATE
+		Circle circle = new JdbcDaoImpl().getCircle(2);
+		
+		//PRINT
+		System.err.println("---------PRINT CIRCLE1------------");
+		System.err.println("circle = " + circle.getId());
+		System.err.println("circle = " + circle.getName());
+		
+		//TIMER: FINISH
+		long tEnd = System.currentTimeMillis();
+		long tDifference = tEnd - tStart;
+		System.err.println("tDifference = " + tDifference);
+
+	}
+}

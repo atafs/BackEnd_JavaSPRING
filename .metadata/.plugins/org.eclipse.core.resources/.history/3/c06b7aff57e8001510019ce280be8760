@@ -1,0 +1,13 @@
+package pt.americolib.dao;
+
+import pt.americolib.model.Circle;
+
+public class JdbcDaoImpl {
+	
+	public Circle getCircle(int circleId) {
+		
+		
+		return null;
+	}
+
+}

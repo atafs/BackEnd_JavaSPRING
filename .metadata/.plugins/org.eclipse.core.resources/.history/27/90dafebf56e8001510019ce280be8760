@@ -1,0 +1,7 @@
+package pt.americolib.model;
+
+//DAO
+public class Circle {
+	
+
+}

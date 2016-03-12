@@ -1,0 +1,9 @@
+package pt.americolib;
+
+public class Main_1JDBCdemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -17,13 +17,14 @@
 <item elementID="=Spring_proj013_AOP_joinPoints_args" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Spring_proj009_codingToInterfaces" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1457787356780_3" label="database" name="database">
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1457787356780_3" label="data_support" name="data_support">
 <item elementID="=Spring_proj016_JDBCwithoutSPRING" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Spring_proj017_SPRINGdata_support" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1453117031551_0" label="Window Working Set" name="Aggregate for window 1453117031550"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1457787358885_4" label="Multiple Working Sets" name="Aggregate:beans:database:">
 <workingSet IMemento.internal.id="beans"/>
-<workingSet IMemento.internal.id="database"/>
+<workingSet IMemento.internal.id="data_support"/>
 </workingSet>
 <mruList name="beans"/>
 </workingSetManager>
