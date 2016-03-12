@@ -1,7 +1,0 @@
-package bean;
-
-import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
-
-public class MyBeanFactoryPP implements BeanFactoryPostProcessor{
-
-}

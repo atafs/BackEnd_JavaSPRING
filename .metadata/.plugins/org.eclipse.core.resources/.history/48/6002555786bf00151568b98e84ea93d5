@@ -1,7 +1,0 @@
-package listener;
-
-import org.springframework.context.ApplicationListener;
-
-public class MyEventListener implements ApplicationListener {
-
-}
