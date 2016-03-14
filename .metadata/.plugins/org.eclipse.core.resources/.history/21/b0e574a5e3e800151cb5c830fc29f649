@@ -1,0 +1,20 @@
+package pt.americolib;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import pt.americolib.dao.HibernateDaoImpl;
+
+public class HibernateDemo {
+	
+	public static void main(String[] args) {
+		//TIMER:START
+		long tStart = System.currentTimeMillis();
+		
+		//DEPENDENCY INJECTION(bean)
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("pt/americolib/config/spring.xml");
+		HibernateDaoImpl dao = ctx.getBean("hibernateDaoImpl", HibernateDaoImpl.class);
+		
+	}
+
+}

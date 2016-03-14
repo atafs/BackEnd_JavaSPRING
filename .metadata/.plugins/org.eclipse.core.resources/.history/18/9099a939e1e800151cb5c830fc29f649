@@ -1,0 +1,17 @@
+package pt.americolib.dao;
+
+public class HibernateDaoImpl {
+	
+	//ATTRIBUTE
+	private SessionFactory sessionFactory;
+	
+	/* RETRIEVE: fetch data from table */
+	/** RETRIEVE: get a total count of ID values*/
+	public int getCircleCount() {
+		//QUERY
+		
+		return 0;
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package pt.americolib.dao;
+
+public class HibernateDaoImpl {
+
+}

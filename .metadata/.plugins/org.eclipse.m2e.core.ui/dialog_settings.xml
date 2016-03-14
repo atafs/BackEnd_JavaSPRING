@@ -14,6 +14,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Spring_proj017_SPRINGdata_support"/>
 			<item value="Spring_proj015_AOP_proxies"/>
 			<item value="Spring_proj014_AOP_xmlConfig"/>
 			<item value="Spring_proj013_AOP_joinPoints_args"/>
@@ -29,9 +30,11 @@
 			<item value="Spting_prof003_initializingCollections"/>
 		</list>
 		<list key="name">
+			<item value="Americo Tomas"/>
 			<item value="AmericoTomas"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring_proj017_SPRINGdata_support"/>
 			<item value="Spring_proj015_AOP_proxies"/>
 			<item value="Spring_proj014_AOP_xmlConfig"/>
 			<item value="Spring_proj013_AOP_joinPoints_args"/>

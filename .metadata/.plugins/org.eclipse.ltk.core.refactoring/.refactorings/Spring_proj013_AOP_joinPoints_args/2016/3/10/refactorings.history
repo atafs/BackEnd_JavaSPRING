@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring.xml&apos; to &apos;Spring_proj017_SPRINGdata_support/src/pt.americolib.config&apos;&#x0D;&#x0A;- Original project: &apos;Spring_proj013_AOP_joinPoints_args&apos;&#x0D;&#x0A;- Destination element: &apos;Spring_proj017_SPRINGdata_support/src/pt.americolib.config&apos;&#x0D;&#x0A;- Original element: &apos;spring.xml&apos;" description="Copy file" destination="=Spring_proj017_SPRINGdata_support/src&lt;pt.americolib.config" element1="src/config/spring.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1457831300832" units="0" version="1.0"/>
+</session>

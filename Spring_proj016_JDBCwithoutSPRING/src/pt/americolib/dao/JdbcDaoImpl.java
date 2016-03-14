@@ -11,38 +11,29 @@ import pt.americolib.model.Circle;
 public class JdbcDaoImpl {
 	
 	public Circle getCircle(int circleId) {
-		
-		//TALK TO THE DATABASE
 		Connection conn = null;
-		
 		try {
-		//DRIVER
+		//1- CONNECTION
 		String driver = "org.apache.derby.jdbc.ClientDriver";
 		Class.forName(driver).newInstance();
-		
-		//CONNECTION
 		conn = DriverManager.getConnection("jdbc:derby://localhost:1527/db");
 		
-		//STATEMENT
+		//2- PREPARE STATEMENT
 		PreparedStatement ps = conn.prepareStatement("SELECT * FROM circle WHERE id = ?");
 		ps.setInt(1,  circleId);
 		
-		//EXECUTE QUERY
+		//3- EXECUTE QUERY
 		Circle circle = null;
 		ResultSet rs = ps.executeQuery();
 		
-		//CHECK IF THERE IS A RECORD TO ASSIGN
+		//4- PARSING THE RESULT SET
 		if (rs.next()) {
 			circle = new Circle(circleId, rs.getString("name"));
 		}
-		
-		//CLOSE
 		rs.close();
 		ps.close();
-		
-		//OBJECT
 		return circle;
-	
+		
 		} catch(Exception e) {
 			throw new RuntimeException();
 		} finally {

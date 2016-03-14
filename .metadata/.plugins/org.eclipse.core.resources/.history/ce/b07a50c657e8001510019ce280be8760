@@ -1,5 +1,0 @@
-package pt.americolib.dao;
-
-public class JdbcDaoImpl {
-
-}
